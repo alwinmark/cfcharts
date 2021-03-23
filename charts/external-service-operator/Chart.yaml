@@ -5,7 +5,7 @@ description: |
   The External-Service-Operator will create K8s Ressources for those Services, so they can be used, as they would just live inside the cluster.
   One of the Usecases can also be, that you want to expose an external Service via your Kubernetes Ingress Controller in order to have one central reverse Proxy.
 name: external-service-operator
-version: 0.0.1
+version: 0.1.0
 home: https://github.com/CrowdfoxGmbH/cfcharts
 keyworkds:
 - service

@@ -1,5 +1,5 @@
-owner: CrowdfoxGmbH
+owner: alwinmark
 git-repo: cfcharts
-charts-repo: https://crowdfoxgmbh.github.io/cfcharts/
+charts-repo: https://alwinmark.github.io/cfcharts/
 index-path: docs/index.yaml
 package-path: .cr-release-packages

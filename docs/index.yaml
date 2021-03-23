@@ -3,12 +3,12 @@ entries:
   external-service-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-09T13:26:53.040846354+02:00"
+    created: "2021-03-23T11:58:47.038724379+01:00"
     description: |
       A Helm chart for deploying External-Service-Operator which is repsonsible for creating and monitoring Services running outside of the cluster.
       The External-Service-Operator will create K8s Ressources for those Services, so they can be used, as they would just live inside the cluster.
       One of the Usecases can also be, that you want to expose an external Service via your Kubernetes Ingress Controller in order to have one central reverse Proxy.
-    digest: 4b41c61fbf275b0547485cbe3ce9c1f63ad276029f2e2d386f6e6024a9bb89e1
+    digest: 8af52b1baf928c8c330c485f6185926b38e1e0ca3d660badb9ac372e51e8d06d
     home: https://github.com/CrowdfoxGmbH/cfcharts
     maintainers:
     - email: alwin@atk-solutions.de
@@ -17,6 +17,6 @@ entries:
     sources:
     - https://github.com/CrowdfoxGmbH/external-service-operator
     urls:
-    - https://github.com/CrowdfoxGmbH/cfcharts/releases/download/external-service-operator-0.0.1/external-service-operator-0.0.1.tgz
-    version: 0.0.1
-generated: "2019-08-09T13:26:52.575777749+02:00"
+    - https://github.com/alwinmark/cfcharts/releases/download/external-service-operator-0.1.0/external-service-operator-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-23T11:58:46.717700711+01:00"
