@@ -1,4 +1,4 @@
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "external-service-operator.fullname" . }}
@@ -27,7 +27,9 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           command:
           - external-service-operator
+{{- if .Values.devel }}
           - --zap-devel
+{{- end }}
           env:
             - name: WATCH_NAMESPACE
               value: ""
